@@ -1,0 +1,32 @@
+/* CODE A COPIER DANS LE FICHIER CSS */
+
+#bannerTopAdvertising{
+	width:100%;
+	position:absolute;
+	animation:myTopAdvertisingSlideIn 1s ease 0s 1 normal forwards;
+}
+#bannerTopAdvertising img{
+	width:100%;
+	object-fit: fill;
+}
+#bannerTopAdvertising button{
+	position:absolute;
+	top: 0;
+	right: 0;
+}
+@keyframes myTopAdvertisingSlideIn {
+	0% {
+	transform: translateY(-100%);
+	}
+	100% {
+	transform: translateY(0);
+	}
+}
+@keyframes myTopAdvertisingSlideOut {
+	0% {
+	transform: translateY(0);
+	}
+	100% {		
+	transform: translateY(-100%);
+	}
+}
